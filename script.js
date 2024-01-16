@@ -1,7 +1,7 @@
 let counternumber = document.getElementById('counterstartednumber');
 function increase() {
     let increaseupdate = counternumber.textContent ;
-    let updatednumber ="Pottidana";
+    let updatednumber =parseInt(increaseupdate);
     if (updatednumber > 0) {
         counternumber.style.color = "green"
 
@@ -35,7 +35,7 @@ function reset() {
 }
 function decrease () {
     let increaseupdate = counternumber.textContent ;
-    let updatednumber = 'Psychodana' ;
+    let updatednumber = parseInt(increaseupdate);
     if (updatednumber > 0) {
         counternumber.style.color = "green"
 
